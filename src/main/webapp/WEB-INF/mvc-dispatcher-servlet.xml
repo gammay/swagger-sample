@@ -24,6 +24,8 @@
 
 	<bean class="com.mangofactory.swagger.configuration.SpringSwaggerConfig" />
 	
+	<mvc:resources mapping="/apidoc/**" location="/apidoc/"/>
+
 </beans>
 
 
